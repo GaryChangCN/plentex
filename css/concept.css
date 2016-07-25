@@ -1,0 +1,102 @@
+.container{
+	width: 100%;
+	margin-top: 72px;
+}
+.content{
+	width: 1000px;
+	margin: 0px auto;
+}
+.title{
+	padding-top: 52px;
+	font-size: 30px;
+	font-weight: 500;
+}
+.title>span{
+	font-size: 20px;
+}
+.threeL{
+	margin-top: 59px;
+	overflow: auto;
+}
+.threeL>div{
+	float: left;
+	width: 333px;
+	text-align: center;
+}
+.tLT{
+	font-size: 20px;
+	padding-bottom: 15px;
+	width: 255px;
+	margin: 0px auto;
+	border-bottom: 3px solid #46aa00;
+	font-weight: 500;
+}
+.tLB{
+	margin-top: 25px;
+	font-size: 16px;
+	line-height: 30px;
+}
+.content>img{
+	width: 1000px;
+	margin-top: 90px;
+	margin-bottom: 114px;
+}
+/*企业简介部分*/
+.main{
+	margin-top: 60px;
+}
+.m1{
+	font-size: 16px;
+	letter-spacing: 4px;
+	line-height: 25px;
+}
+.m2,.m3{
+	margin-top: 23px;
+	font-size: 16px;
+}
+.m2>span{
+	display: inline-block;
+	width: 40px;
+	height: 13px;
+	background-image: url("../img/logo.gif");
+	background-size: 210% 100%;
+	margin-right: 8px;
+}
+.m3>span{
+	display: inline-block;
+	width: 20px;
+	height: 13px;
+	background-image: url("../img/logo.gif");
+	background-size: 360% 100%;
+	background-position: -35px 0;
+	background-repeat: no-repeat;
+	margin-right: 8px;
+}
+/*企业文化*/
+.culture{
+	margin-top: 60px;
+	overflow: auto;
+}
+.culture>div{
+	float: left;
+}
+.culture2{
+	margin-bottom: 59px;
+}
+.culture2,.culture4{
+	width: 850px;
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: -2px;
+}
+.culture span{
+	color: #af0000;
+}
+.culture1,.culture3{
+	font-size: 16px;
+	font-weight: 600;
+	margin-right: 20px;
+}
+.cultureImg{
+	margin-top: 61px !important;
+}

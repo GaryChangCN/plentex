@@ -1,0 +1,217 @@
+.banner {
+    width: 100%;
+    margin-top: 72px;
+}
+
+.lunboC {
+    width: 100%;
+}
+
+.lunbo {
+    width: 4000px;
+    position: relative;
+    transition: margin-left 0.5s;
+}
+
+.lunbo>li {
+    width: 1000px;
+    float: left;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.lunbo>li:nth-child(1) {
+    background-image: url("../img/jpg2.jpg");
+}
+
+.lunbo>li:nth-child(2) {
+    background-image: url("../img/jpg1.jpg");
+}
+
+.lunbo>li:nth-child(3) {
+    background-image: url("../img/jpg2.jpg");
+}
+
+.lunbo>li:nth-child(4) {
+    background-image: url("../img/jpg1.jpg");
+}
+
+.lunbo>li>div {
+    color: #fff;
+}
+
+.lunbo>li>div>p:first-child {
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.lunbo>li>div>p:last-child {
+    line-height: 20px;
+}
+
+.lunboControl {
+    position: absolute;
+    width: 1200px;
+    z-index: 99;
+    text-align: center;
+}
+
+.left,
+.right {
+    display: block;
+    border-top: 2px solid #eee;
+    border-left: 2px solid #eee;
+    width: 20px;
+    height: 20px;
+    transition: transform 1s;
+}
+
+.lunboControl>.left {
+    transform: rotate(-45deg);
+    float: left;
+}
+
+.lunboControl>.left:hover {
+    border-color: #60d80b;
+    transform: rotate(-405deg);
+}
+
+.lunboControl>.right {
+    float: right;
+    transform: rotate(135deg);
+}
+
+.lunboControl>.right:hover {
+    transform: rotate(495deg);
+    border-color: #60d80b;
+}
+
+.slideDown {
+    position: relative;
+    top: 300px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/down.png");
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position: center center;
+    z-index: 80;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.slideDown:hover {
+    box-shadow: 0px 0px 3px 1px #fff;
+}
+
+.lunboP {
+    width: 100%;
+    height: 6px;
+    background-color: #cdcecc;
+    position: relative;
+}
+
+.lunboP>span {
+    display: block;
+    position: absolute;
+    width: 25%;
+    float: left;
+    height: inherit;
+    background-color: #41bfff;
+    left: 0px;
+    transition: left 0.6s;
+}
+
+.contactContainer {
+    width: 100%;
+    height: 692px;
+    margin-top: 43px;
+    background-color: #c8c9c7;
+}
+
+.contact {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.contactTitle {
+    width: 100%;
+    padding-top: 44px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #dddddd;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Arial";
+}
+
+.contactTitle>span {
+    font-size: 20px;
+}
+
+form {
+    width: 1000px;
+    margin: 0px auto;
+    overflow: auto;
+}
+
+.formDiv {
+    width: 500px;
+    float: left;
+}
+
+.formDiv:nth-child(even) {
+    width: 465px;
+    padding-left: 35px;
+}
+
+.formDiv>span {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 17px;
+    margin-top: 21px;
+}
+
+.formDiv>input {
+    width: 443px;
+    height: 45px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 20px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+.formDiv:last-child {
+    width: 1000px;
+}
+
+.formDiv>textarea {
+    padding: 15px;
+    width: 968px;
+    border: 1px solid #fff;
+    height: 103px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+}
+
+#submit {
+    margin-top: 43px;
+    width: 195px;
+    height: 45px;
+    background-color: #b1b2b1;
+    padding: 0px;
+    border: 0px;
+    color: #fff;
+    margin-left: 402px;
+}
+
+#submit:hover {
+    background-color: #a1a1a1;
+}
+

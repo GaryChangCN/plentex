@@ -1,0 +1,40 @@
+*{
+	font-family: "微软雅黑";
+}
+.container{
+	width: 100%;
+}
+.content{
+	width: 1000px;
+	margin: 72px auto 0px auto;
+}
+.title{
+	padding-top: 59px;
+	font-size: 40px;
+	text-align: center;
+}
+.time{
+	text-align: center;
+	font-size: 14px;
+	padding-top: 29px;
+}
+.time>span:first-child{
+	padding-right: 29px;
+}
+.p1{
+	padding-top: 31px;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing:1px; 
+}
+.p2{
+	padding-top: 24px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.img1{
+	margin-top: 61px;
+}
+.img2{
+	margin: 23px 0px 138px 0px;
+}
